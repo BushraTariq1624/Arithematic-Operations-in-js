@@ -38,28 +38,22 @@ document.write("Total cost to buy 5 tickets to a movie is: " + cost + "PKR" + "<
 document.write("<br/>");
 
 //question5
-document.write("Table of 4" + "<br/>")
-var pro = 4*1;
-document.write("4x1="+ pro + "<br/>");
-pro = 4*2;
-document.write("4x2="+ pro + "<br/>");
-pro = 4*3;
-document.write("4x3="+ pro + "<br/>");
-pro = 4*4;
-document.write("4x4="+ pro + "<br/>");
-pro = 4*5;
-document.write("4x5="+ pro + "<br/>");
-pro = 4*6;
-document.write("4x6="+ pro + "<br/>");
-pro = 4*7;
-document.write("4x7="+ pro + "<br/>");
-pro = 4*8;
-document.write("4x8="+ pro + "<br/>");
-pro = 4*9;
-document.write("4x9="+ pro + "<br/>");
-pro = 4*10;
-document.write("4x10="+ pro + "<br/>");
-document.write("<br/>");
+var table_number=4;
+var counter=1;
+var inc =1;
+document.write(
+    table_number + " x " + inc++ + " = "+ table_number*counter++ + "<br/>"+
+    table_number + " x " + inc++ + " = "+ table_number*counter++ + "<br/>"+
+    table_number + " x " + inc++ + " = "+ table_number*counter++ + "<br/>"+
+    table_number + " x " + inc++ + " = "+ table_number*counter++ + "<br/>"+
+    table_number + " x " + inc++ + " = "+ table_number*counter++ + "<br/>"+
+    table_number + " x " + inc++ + " = "+ table_number*counter++ + "<br/>"+
+    table_number + " x " + inc++ + " = "+ table_number*counter++ + "<br/>"+
+    table_number + " x " + inc++ + " = "+ table_number*counter++ + "<br/>"+
+    table_number + " x " + inc++ + " = "+ table_number*counter++ + "<br/>"+
+    table_number + " x " + inc++ + " = "+ table_number*counter++ + "<br/>"
+ );
+ document.write("<br/>");
 
 //question6
 var celsius = 25;
